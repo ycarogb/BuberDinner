@@ -1,0 +1,74 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "BuberDinner.Api/1.0.0": {
+        "dependencies": {
+          "BuberDinner.Application": "1.0.0",
+          "BuberDinner.Contracts": "1.0.0",
+          "BuberDinner.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "BuberDinner.Api.dll": {}
+        }
+      },
+      "BuberDinner.Application/1.0.0": {
+        "dependencies": {
+          "BuberDinner.Domain": "1.0.0"
+        },
+        "runtime": {
+          "BuberDinner.Application.dll": {}
+        }
+      },
+      "BuberDinner.Contracts/1.0.0": {
+        "runtime": {
+          "BuberDinner.Contracts.dll": {}
+        }
+      },
+      "BuberDinner.Domain/1.0.0": {
+        "runtime": {
+          "BuberDinner.Domain.dll": {}
+        }
+      },
+      "BuberDinner.Infrastructure/1.0.0": {
+        "dependencies": {
+          "BuberDinner.Application": "1.0.0"
+        },
+        "runtime": {
+          "BuberDinner.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BuberDinner.Api/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BuberDinner.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BuberDinner.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BuberDinner.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BuberDinner.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
