@@ -1,5 +1,5 @@
 namespace BuberDinner.Contracts.Authentication;
 
-public record AuthenticationResponse(
+public record LoginRequest(
     string Email,
     string Password);
