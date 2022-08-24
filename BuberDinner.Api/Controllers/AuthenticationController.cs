@@ -34,7 +34,7 @@ public class AuthenticationController: ControllerBase
     }
 
     [HttpPost("login")]
-    public IActionResult Login(RegisterRequest request)
+    public IActionResult Login(LoginRequest request)
     {
         var authResult = _authenticationService.Login(
             request.Email, 
